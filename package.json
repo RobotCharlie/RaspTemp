@@ -1,0 +1,23 @@
+{
+  "name": "rasptemp",
+  "version": "1.0.0",
+  "description": "Temperature detection using Raspberry Pi and Sync the file to Google",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobotCharlie/RaspTemp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobotCharlie/RaspTemp/issues"
+  },
+  "homepage": "https://github.com/RobotCharlie/RaspTemp#readme",
+  "dependencies": {
+    "google-auth-library": "^0.12.0",
+    "googleapis": "^24.0.0"
+  }
+}
